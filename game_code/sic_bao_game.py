@@ -6,7 +6,7 @@ history_results = []
 
 def roll_dice():
     # 随机生成三个骰子的点数（1到6）
-    dice1 = random.randint(1, 6)
+    dice1 = random.randint(1, 6)，
     dice2 = random.randint(1, 6)
     dice3 = random.randint(1, 6)
 #结果集 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18
