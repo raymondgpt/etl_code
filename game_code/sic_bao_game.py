@@ -22,7 +22,7 @@ def roll_dice():
         result = "大"
     elif total == 3 or total == 18:
         result = "围骰"
-    else:这是一句测试的话。.
+    else:这是一句测试的话。.。
         result = "其他"
 
     # 把每次的结果存储到历史结果列表中
