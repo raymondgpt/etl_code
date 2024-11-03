@@ -2,7 +2,7 @@ import random
 
 # 初始化历史结果列表
 history_results = []
-#今天的天气真好
+
 
 def roll_dice():
     # 随机生成三个骰子的点数（1到6）
@@ -22,7 +22,7 @@ def roll_dice():
         result = "大"
     elif total == 3 or total == 18:
         result = "围骰"
-    else:
+    else:这是一句测试的话。.。
         result = "其他"
 
     # 把每次的结果存储到历史结果列表中
